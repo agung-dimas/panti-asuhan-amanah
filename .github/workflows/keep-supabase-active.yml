@@ -3,7 +3,7 @@ name: Keep Supabase Database Active
 on:
   schedule:
     # Jalankan setiap 6 hari sekali pada pukul 00:00 UTC
-    - cron: '0 0 */5 * *'
+    - cron: '0 0 */3 * *'
   workflow_dispatch: # Memungkinkan trigger manual
 
 jobs:
